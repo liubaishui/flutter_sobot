@@ -78,7 +78,7 @@ echo $PATH
 7.通过flutter doctor 检查依赖环境以及插件是否安装完成
 
 ![Image text]
-(https://code.zhichidata.com/zhichiwanglei/Flutter-Survey/raw/master/storage/flutterdoctor/flutterdoctor1.png)
+(https://code.zhichidata.com/flutter_sobotsdk/flutter_sobot/raw/master/storage/flutterdoctor/flutter2.png)
 
 如果显示如上图 就可以创建自己的第一个helloword 项目了
 
@@ -124,4 +124,4 @@ class MyApp extends StatelessWidget {
 
 8 运行应用程序 
 
-![image text](https://code.zhichidata.com/zhichiwanglei/flutter_sobot/raw/master/storage/sources/flutter1.png)
+![image text](https://code.zhichidata.com/flutter_sobotsdk/flutter_sobot/raw/master/storage/sources/flutter1.png)
