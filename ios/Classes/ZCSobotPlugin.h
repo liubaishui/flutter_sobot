@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define ZC_SOBOT_ENV_CHECK @"ZCSobot_Plugin_Env_Check"
 // 频道名称
-#define ZC_SOBOT_PLUGIN_CHANNEL @"sobotflutter"
+#define ZC_SOBOT_PLUGIN_CHANNEL @"flutter_sobot"
 
 // 频道名称
 #define ZC_SOBOT_PLUGIN_EVENT_CHANNEL @"sobot"
