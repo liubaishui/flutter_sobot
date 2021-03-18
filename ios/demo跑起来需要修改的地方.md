@@ -1,5 +1,5 @@
-需要修改的地方
-
+需要修改的地方 需要修改Generated.xcconfig
+ 
 // 1. 本地flutter 仓库路径
 FLUTTER_ROOT=/Users/wanglei/Desktop/USTH/Fluter 调研/flutter
 // 2.当前仓库路径或demo跟路径
