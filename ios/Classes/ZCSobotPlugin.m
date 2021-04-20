@@ -517,6 +517,8 @@
     kitInfo.commentCommitButtonColor = [self getColor:dict[@"commentCommitButtonColor"]];
     kitInfo.commentButtonTextColor = [self getColor:dict[@"commentButtonTextColor"]];
     kitInfo.commentButtonBgColor = [self getColor:dict[@"commentButtonBgColor"]];
+    kitInfo.commentItemButtonBgColor = [self getColor:dict[@"commentItemButtonBgColor"]];
+    kitInfo.commentItemButtonSelBgColor = [self getColor:dict[@"commentItemButtonSelBgColor"]];
     
     kitInfo.BgTipAirBubblesColor = [self getColor:dict[@"BgTipAirBubblesColor"]];
     kitInfo.videoCellBgSelColor = [self getColor:dict[@"videoCellBgSelColor"]];

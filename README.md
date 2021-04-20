@@ -1208,7 +1208,6 @@ Future<void> openSobotHelpMallCenter() async {
 - 描述：评价页面中 已解决，未解决 按钮的 高亮状态的文字颜色，可为空
 
 
-
 <div id="8"></div>
 ##补充说明
 
