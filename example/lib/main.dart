@@ -68,7 +68,7 @@ class ZCSobotWidgeState extends State<ZCSobotWidge> {
 
   Future<void> startZhichi() async {
     var params = {
-      'app_key': '3869eb0f3d8d4ccaa563c88781391a1c',
+      'app_key': '1c1da2c0aad047d7ba1d14ecd18ae4f6',
       'api_host': '',
       'partnerid': '123456789',
       'user_nick': 'sobot123123123',
@@ -126,7 +126,7 @@ class ZCSobotWidgeState extends State<ZCSobotWidge> {
 
   Future<void> openSobotHelpCenter() async {
     var params = {
-      'app_key': '3869eb0f3d8d4ccaa563c88781391a1c',
+      'app_key': '1c1da2c0aad047d7ba1d14ecd18ae4f6',
       'api_host': '',
       'partnerid': '123456789',
       'user_nick': 'sobot123123123',
@@ -184,7 +184,7 @@ class ZCSobotWidgeState extends State<ZCSobotWidge> {
 
   Future<void> openSobotHelpMallCenter() async {
     var params = {
-      'app_key': '3869eb0f3d8d4ccaa563c88781391a1c',
+      'app_key': '1c1da2c0aad047d7ba1d14ecd18ae4f6',
       'api_host': '',
       'partnerid': '123456789',
       'user_nick': 'sobot123123123',

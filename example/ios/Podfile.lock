@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_sobot (2.9.6):
+    - Flutter
+    - SobotKit (= 2.9.6)
+  - SobotKit (2.9.6)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_sobot (from `.symlinks/plugins/flutter_sobot/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SobotKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_sobot:
+    :path: ".symlinks/plugins/flutter_sobot/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_sobot: a6100afa74ea724ed018d502b7f8bd32250bf69e
+  SobotKit: 49a2a26445b98de766415769b6381ae95706a43e
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1

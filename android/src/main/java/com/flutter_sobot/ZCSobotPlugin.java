@@ -129,6 +129,7 @@ public class ZCSobotPlugin implements FlutterPlugin, MethodCallHandler , EventCh
 
   @Override
   public void onMethodCall(@NonNull MethodCall call, @NonNull final Result result) {
+    ZCSobotApi.setShowDebug(true);
     if (call.method.equals(startZhichiMethod)) {
       if (getInfo(call, result) == null) {
         result.success("appKey不能为空");
