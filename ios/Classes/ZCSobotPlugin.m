@@ -97,7 +97,6 @@
     
     NSString *api_host = [self convertString:[argus objectForKey:@"api_host"]];
     NSString * app_key = [self convertString:[argus objectForKey:@"app_key"]];
-    NSString *partnerid = [self convertString:[argus objectForKey:@"partnerid"]];
     [ZCSobotApi initSobotSDK:app_key host:api_host result:^(id  _Nonnull object) {
         
         ZCLibInitInfo *info = [self setZCLibInfoValue:argus];
@@ -136,7 +135,6 @@
     
     NSString *api_host = [self convertString:[argus objectForKey:@"api_host"]];
     NSString * app_key = [self convertString:[argus objectForKey:@"app_key"]];
-    NSString *partnerid = [self convertString:[argus objectForKey:@"partnerid"]];
     [ZCSobotApi initSobotSDK:app_key host:api_host result:^(id  _Nonnull object) {
         
         ZCLibInitInfo *info = [self setZCLibInfoValue:argus];
@@ -170,8 +168,6 @@
 #if ZC_SOBOT_SUPPORTED
     NSString *api_host = [self convertString:[argus objectForKey:@"api_host"]];
     NSString * app_key = [self convertString:[argus objectForKey:@"app_key"]];
-    
-    NSString *partnerid = [self convertString:[argus objectForKey:@"partnerid"]];
     
     [ZCSobotApi initSobotSDK:app_key host:api_host result:^(id  _Nonnull object) {
         
@@ -273,6 +269,8 @@
 
 #if ZC_SOBOT_SUPPORTED
 -(ZCLibInitInfo *) setZCLibInfoValue:(NSDictionary *)dict{
+    NSLog(@"version:%@",[ZCSobotApi getVersion]);
+    [ZCSobotApi setShowDebug:YES];
     //    dict = [self defaultInitParams];
     [ZCLibClient getZCLibClient].platformUnionCode = [self convertString:[dict objectForKey:@"platformUnionCode"]];
     

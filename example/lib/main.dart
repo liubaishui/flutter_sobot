@@ -68,7 +68,7 @@ class ZCSobotWidgeState extends State<ZCSobotWidge> {
 
   Future<void> startZhichi() async {
     var params = {
-      'app_key': '1c1da2c0aad047d7ba1d14ecd18ae4f6',
+      'app_key': 'e550c6e4250c4ab490f290c6d7cb5ac2',
       'api_host': '',
       'partnerid': '123456789',
       'user_nick': 'sobot123123123',
@@ -78,9 +78,9 @@ class ZCSobotWidgeState extends State<ZCSobotWidge> {
       'qq': '123456789',
       'remark': '好好学习，天天向上',
       'params': {
-        'actionType': 'to_group',
-        'optionId': '4',
-        'deciId': 'a457f4dfe92842f8a11d1616c1c58dc1'
+        // 'actionType': 'to_group',
+        // 'optionId': '4',
+        // 'deciId': 'a457f4dfe92842f8a11d1616c1c58dc1'
       },
       'service_mode': 0,
       'title_type': 1,

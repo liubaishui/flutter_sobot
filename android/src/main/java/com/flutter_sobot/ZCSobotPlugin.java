@@ -195,7 +195,7 @@ public class ZCSobotPlugin implements FlutterPlugin, MethodCallHandler , EventCh
       if (isCustomLinkClick) {
         ZCSobotApi.setNewHyperlinkListener(new NewHyperlinkListener() {
           @Override
-          public boolean onUrlClick(String url) {
+          public boolean onUrlClick(Context context, String url) {
             JSONObject ret = new JSONObject();
             try {
               ret.put("type", "2");
@@ -211,12 +211,12 @@ public class ZCSobotPlugin implements FlutterPlugin, MethodCallHandler , EventCh
           }
 
           @Override
-          public boolean onEmailClick(String email) {
+          public boolean onEmailClick(Context context, String email) {
             return false;
           }
 
           @Override
-          public boolean onPhoneClick(String phone) {
+          public boolean onPhoneClick(Context context, String phone) {
             return false;
           }
         });

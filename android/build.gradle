@@ -27,18 +27,25 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 17
     }
 }
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.ZCSDK:sobotsdk-mall-x:2.9.6'
+    implementation  'com.sobot.chat:sobotsdk-mall-x:3.0.0'
     implementation 'com.squareup.okhttp3:okhttp:4.4.1'
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    implementation 'com.sobot.chat:sobotsupport-glidev4:1.0.10'
+
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'com.alibaba:fastjson:1.1.72.android'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.4.0'
+    //目前支持常见的3种图片加载库，必须在下面的图片加载库中选择一个添加依赖
+    //implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    //implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    //在使用4.9.0（包含4.9.0）以上版本的glide时，需额外添加依赖，之前的版本不需要
+    implementation 'com.sobot.chat:sobotsupport-glidev4:2.1'
 }
 

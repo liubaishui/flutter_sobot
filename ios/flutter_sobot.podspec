@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_sobot'
-  s.version          = '2.9.6'
+  s.version          = '3.0.0'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
   A new flutter plugin project.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'SobotKit', '2.9.6'
+  s.dependency 'SobotKit', '3.0.0'
   s.platform = :ios, '9.0'
   
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.

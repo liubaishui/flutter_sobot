@@ -1,9 +1,10 @@
 name: flutter_sobot
 description: sobot first flutter plugin
-version: 2.9.6
+version: 3.0.0
 homepage: http://code.zhichidata.com/flutter_sobotsdk/flutter_sobot.git
 
 
+# 指定flutter支持版本
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.20.0"
