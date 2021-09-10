@@ -6,8 +6,8 @@
 //
 
 #import <Flutter/Flutter.h>
-@import UIKit;
-@import Flutter;
+// @import UIKit;
+// @import Flutter;
 
 NS_ASSUME_NONNULL_BEGIN
 /*
